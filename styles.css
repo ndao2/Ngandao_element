@@ -1,0 +1,117 @@
+/* Elements */
+
+body {
+	background-color: pink;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.circle {
+	width: 40em;
+    height: 40em;
+    background-color: coral;
+    border-radius: 50%;
+    animation: c 2s linear infinite;
+    position: relative;
+    left: 100px;
+    right:200px:;
+    top: 100%;
+
+}
+.circle-2{
+    width: 30em;
+    height: 30em;
+    background-color: coral;
+    border-radius:15%;
+    animation: cc 2s linear infinite;
+    position: static;
+    left: 0px;
+ 
+
+}
+.circle-3 
+{
+	background-color: black;
+    border-radius: 50%;
+    height: 150px;
+    bottom: 0;
+    right: 45px;
+    background-color: #E91E63;
+
+}
+.line {
+	height: 180px;
+    width: 150%;
+    background-color: steelblue;
+    transform: rotate(-90deg);
+}
+.line2 {
+    height: 150px;
+    font-weight: 50px;
+    background-color: black;
+    transform: rotate(-45deg);
+
+}
+.line-3 {
+   transform: rotate(-180deg);
+    height: 80px;
+    width: 950px;
+    right: : auto10em;
+    background-color: #34e5d6;
+}
+.line-4 {
+  height: 50px;
+    position: relative;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background-color: red;
+}
+
+.line-5
+{
+    height:200px;
+    transform: scale(120px);
+    background-color: green;
+
+
+}
+.square {
+  animation: g 3s linear infinite;
+    top: 500px;
+    left: 150px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: block;
+    background-color: yellow;
+}
+
+
+
+@keyframes g
+{
+	0%{transform: translate(0px);}
+	50%{transform: translate(300px);}
+    100%{transform: translate(0px);}
+
+}
+
+@keyframes c  
+{
+    0%{transform: translate(0px);}
+    50%{transform: translate(400px);}
+    100%{transform: translate(0px);}
+} 
+@keyframes cc  
+{
+    0%{transform: translate(15px);}
+    50%{transform: translate(200px);}
+    100%{transform: translate(15px);}
+} 
+
